@@ -1,4 +1,4 @@
-import { tools } from "./tools"
+import { tools } from "./tools/index.js"
 export type ToolName = keyof typeof tools
 
 export const executeTools = async (name: string, args: any) => {
